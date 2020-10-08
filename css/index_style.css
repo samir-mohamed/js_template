@@ -1,0 +1,101 @@
+h1{
+    font-size: 60px;
+    color:#09c;
+    text-align:center;
+}
+.name-alert,.age-alert,.phone-alert{
+    display: none;
+}
+.item{
+    background-color: tomato;
+    position: relative;
+}
+.item-caption{
+    background-color:#fff;
+    position:absolute;
+    width:80%;
+    left:10%;
+    bottom: 20px;
+    padding: 10px;
+}
+.overlay-container{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom :0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    display: none !important;
+
+}
+.overlay-inner{
+    width:60%;
+    height: 500px;
+    background-image:url(../images/portfolio-1.jpg);
+    background-size: 100% 100%;
+}
+.show{
+    display: flex !important
+}
+#wClose{
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+.emp{
+    position: relative;
+}
+.age{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: #09c;
+    padding: 10px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.hide-table,.hide-grid{
+    display: none
+}
+
+
+  
+  /* Style the buttons */
+  .btnContainer{
+      text-align: right;
+  }
+  .button {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  
+  .button.active {
+    background-color: #666;
+    color: white;
+  }
+  .name-alert{
+      display: none;
+  }
+  .carousel-item img{width:100%}
+
+  .date-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    /* width: 100%; */
+    padding: 30px 10px;
+    /* height: 100%; */
+    background-color: rgba(0,0,0,0.7);
+}
